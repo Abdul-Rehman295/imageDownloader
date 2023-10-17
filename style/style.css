@@ -1,0 +1,36 @@
+* , body , html{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.image{
+    padding: 2em;
+   display: flex;
+   justify-content: center;
+}
+.image img{
+    width: 10em;
+    height: 10em;
+}
+.main {
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+.main form{
+    width :50%;
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main form input[type="url"]{
+width: 100%;
+padding: .8em ;
+}
+.main form button{
+    align-self: center;
+    padding: 1em;
+}
